@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.nav { 
+  padding: 0 1rem;
+}
+
+.content {
+  min-height: calc(100vh - 70px - 64px);
+}
+
+.material-icons {
+  margin-left: 180px;
+  padding-top: 3px;
+}
+.brand-logo{
+  margin-left: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+  gap: 1rem;
+}
+
+label:not(:last-child) {
+  margin-right: 2rem;
+}
+.with-gap{
+  color: black;
+}
